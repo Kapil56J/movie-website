@@ -30,7 +30,7 @@ const useFetch = (apiParams) => {
 
   // debouncing in react js
   useEffect(() => {
-    let timeOut = setTimeout(() => {
+    let timeOut = setTimeout(() => { 
       getMovie(`${API_URl}&s=${apiParams}`);
     }, 1000);
     console.log("set");
