@@ -27,7 +27,7 @@ const useFetch = (apiParams) => {
       console.log(error);
     }
   };
-
+ 
   // debouncing in react js
   useEffect(() => {
     let timeOut = setTimeout(() => { 
